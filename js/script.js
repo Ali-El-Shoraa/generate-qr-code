@@ -33,6 +33,9 @@ function saveImage(url) {
       "block bg-red-500 hover:bg-red-700 text-white font-bold py-2 rounded w-1/3 m-auto my-5";
     aTag.download = "QrCode";
     savebtn.append(aTag);
+
+    document.body.style.scrollBehavior = "smooth";
+    window.scrollTo(0, 10000);
   }, 5);
 }
 
